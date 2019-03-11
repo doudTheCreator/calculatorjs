@@ -12,7 +12,7 @@ function affichage(nombre)
 
 function total(){
 	let doc = document.getElementById("b0");
-	b0.innerText = eval(doc.innerText);
+	b0.innerText = eval(doc.innerText); // This dude is really dumb uhuhuhuh
 
 
 }
