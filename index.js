@@ -15,24 +15,30 @@ function force(nombre)
 }
 function reset (z)
 {
-	tb=z
 	var b0 = document.getElementById("b0")
-	if(rb == true)
+
+	if(z != 0)
 	{
-	wb = Number(b0.innerHTML)
+		tb = z
+		if(rb == false)
+		{
+			qb = Number(b0.innerHTML)
+			rb = true
+		}
+		else
+		{
+			wb = Number(b0.innerHTML)
+		}
 	}
-	
-	if(rb == false)
-	{
-	qb = Number(b0.innerHTML)
-	rb = true
-	}
+
 	b0.innerHTML = ""
 
 }
 
 function total()
 {
+	wb = Number(b0.innerHTML) // weird fix but ok - bink
+	reset(0)
 	if(tb==1)
 	{
 		force(qb + wb)
@@ -40,5 +46,5 @@ function total()
 	else if (tb==2)
 	{
 		force (qb - wb)
-    }
+  }
 }
