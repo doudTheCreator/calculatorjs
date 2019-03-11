@@ -1,7 +1,7 @@
-<!-- Ok alors c'est ici que le centre du html est-->
+ <!-- Ok alors c'est ici que le centre du html est-->
 <html>
   <head>
-    <script src="index.js"></script>
+    <title>calculator</title>
   </head>
 
   <body>
@@ -19,8 +19,11 @@
     <button onclick="affichage(8)">8</button>
     <button onclick="affichage(9)">9</button>
     <br/>
-    <button onclick="reset(2)">-</button>
-    <button onclick="reset(1)">+</button>
+    <button class="operation", id="sub" onclick="addOps('-')">-</button>
+    <button class="operation", id="plus", onclick="addOps('+')">+</button>
     <button onclick="total()">=</button>
   </body>
+    <script src="index.js"></script>
 </html>
+
+<!--<!--onclick="reset(2)"-->
