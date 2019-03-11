@@ -17,18 +17,18 @@ function reset (z)
 {
 	tb=z
 	var b0 = document.getElementById("b0")
+	if(rb == true)
+	{
+	wb = Number(b0.innerHTML)
+	}
+	
 	if(rb == false)
 	{
 	qb = Number(b0.innerHTML)
 	rb = true
 	}
-
-	if(rb == true)
-	{
-	wb = Number(b0.innerHTML)
-	}
 	b0.innerHTML = ""
-	
+
 }
 
 function total()
@@ -40,5 +40,5 @@ function total()
 	else if (tb==2)
 	{
 		force (qb - wb)
-    }	
+    }
 }
