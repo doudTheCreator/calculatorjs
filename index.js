@@ -12,7 +12,7 @@ function affichage(nombre)
 
 function total(){
 	let doc = document.getElementById("b0");
-	b0.innerText = eval(doc.innerText); // This dude is really dumb uhuhuhuh
+	b0.innerText = eval(doc.innerText); // This dude is really dumb uhuhuhuh, <!-- Sorry he mean't XSS Attack Vector Vulnerability
 
 
 }
