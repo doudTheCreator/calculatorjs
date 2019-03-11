@@ -12,7 +12,6 @@ function affichage(nombre)
 
 function total(){
 	let doc = document.getElementById("b0");
-
 	doc.innerText = new Function('return ' + doc.innerText)();
 
 }
