@@ -1,2 +1,2 @@
-# Calculatrice
-Voici mon premier projet sur github, fais en javascript. Mon frere ``@binkiklou`` a fait tout le html et regler les bugs.
+# Calculator
+This is my first github project, made with Javascript ! My brother ``@binkiklou`` made all the HTML and fixed some bugs.
