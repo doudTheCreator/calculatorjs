@@ -1,4 +1,9 @@
 
+function reset(){
+	var b0 = document.getElementById("b0");
+	b0.innerText = "";
+}
+
 function affichage(nombre)
 {
 		var b0 = document.getElementById("b0");
